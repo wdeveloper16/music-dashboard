@@ -158,21 +158,21 @@
     };
 
     $scope.section_modal = function () {
-      var modalInstance = $modal.open({
-        templateUrl: 'partials/ui-modal-section.html',
-        controller: 'ModalInstanceCtrl',
-        resolve: {
-          items: function () {
-            return $scope.items;
-          }
-        }
-      });
+      // var modalInstance = $modal.open({
+      //   templateUrl: 'partials/ui-modal-section.html',
+      //   controller: 'ModalInstanceCtrl',
+      //   resolve: {
+      //     items: function () {
+      //       return $scope.items;
+      //     }
+      //   }
+      // });
 
-      modalInstance.result.then(function (selectedItem) {
-        $scope.selected = selectedItem;
-      }, function () {
-        $log.info('Modal dismissed at: ' + new Date());
-      });
+      // modalInstance.result.then(function (selectedItem) {
+      //   $scope.selected = selectedItem;
+      // }, function () {
+      //   $log.info('Modal dismissed at: ' + new Date());
+      // });
     };
 
 
