@@ -1813,6 +1813,7 @@ a:focus {
 }
 
 .page-sidebar .profile-info {
+    width: 100%;
     background: transparent;
     padding-top: 30px;
     display: inline-block;
