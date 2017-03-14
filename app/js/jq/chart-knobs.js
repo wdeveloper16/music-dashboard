@@ -2,12 +2,12 @@ jQuery(function($) {
 
     'use strict';
 
-    var SLANT_SETTINGS = window.SLANT_SETTINGS || {};
+    var MMADMIN_SETTINGS = window.MMADMIN_SETTINGS || {};
 
     /*--------------------------------
         Knob Chart
      --------------------------------*/
-    SLANT_SETTINGS.chartKnob = function() {
+    MMADMIN_SETTINGS.chartKnob = function() {
 
 
         if ($.isFunction($.fn.knob)) {
@@ -120,7 +120,7 @@ jQuery(function($) {
      initialize respective scripts 
      *****************************/
     $(document).ready(function() {
-        SLANT_SETTINGS.chartKnob();
+        MMADMIN_SETTINGS.chartKnob();
         knob_clock();
     });
 

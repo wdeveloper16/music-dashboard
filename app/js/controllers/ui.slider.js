@@ -2,14 +2,14 @@ jQuery(function($) {
 
     'use strict';
 
-    var SLANT_SETTINGS = window.SLANT_SETTINGS || {};
+    var MMADMIN_SETTINGS = window.MMADMIN_SETTINGS || {};
 
 
 
     /*--------------------------------
          Other Form component Scripts
      --------------------------------*/
-    SLANT_SETTINGS.otherScripts = function() {
+    MMADMIN_SETTINGS.otherScripts = function() {
 
         /*---------------------------------*/
 
@@ -196,7 +196,7 @@ jQuery(function($) {
      initialize respective scripts 
      *****************************/
     $(document).ready(function() {
-        SLANT_SETTINGS.otherScripts();
+        MMADMIN_SETTINGS.otherScripts();
     });
 
     $(window).resize(function() {

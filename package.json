@@ -1,14 +1,13 @@
 {
-  "name": "SlantAngularWebApp",
-  "version": "1.0.0",
-  "description": "AngularJS and Bootstrap 3 - Admin web application template.",
+  "name": "MMAdmin",
+  "version": "0.1.5",
+  "description": "AngularJS and Bootstrap 3 - Music Admin web application.",
   "scripts": {
     "start": "node node_modules/http-server/bin/http-server -o"
   },
-  "keywords": [    "AngularJS", "admin", "widgets", "admin panel", "flat ui", "ui", "web app", "app", "backend", "angular", "dashboard", "bootstrap", "charts", "ui kit", "responsive"  ],
-  "repository": "https://themepassion@bitbucket.org/themepassion/build.it.git",
-  "author": "themepassion",
-  "license": "Envato REGULAR LICENSE",
+  "repository": "https://github.com/mmadmin.git",
+  "author": "loveweb",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",

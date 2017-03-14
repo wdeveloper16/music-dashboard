@@ -9,8 +9,8 @@ angular.module('app').controller('AppCtrl', ['$scope',
         }
 
         $scope.app = {            
-            name: 'Slant Admin - Angular | Music',
-            version: '3.0.0',
+            name: 'MMAdmin',
+            version: '0.1.5',
             type: 'music',
             color: {
                 primary: '#53bec3',
@@ -28,7 +28,7 @@ angular.module('app').controller('AppCtrl', ['$scope',
                 chatFolded: true,
                 layoutBoxed: false,
                 searchFocus: false,
-                pagetitle: 'Slant \\ AngularJS',
+                pagetitle: 'MMAdmin',
             }
         }
         $scope.menuChatToggle = function(type, value) {
