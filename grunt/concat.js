@@ -18,7 +18,7 @@ module.exports = {
       'app/js/app.config.js',
       'app/js/app.lazyload.js',
       'app/js/app.router.js',
-      'app/js/app.main.style4.js',
+      'app/js/app.main.js',
       'app/js/services/ui-load.js',
       'app/js/filters/moment-fromNow.js',
       'app/js/directives/nganimate.js',

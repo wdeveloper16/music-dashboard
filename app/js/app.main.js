@@ -8,13 +8,13 @@ angular.module('app').controller('AppCtrl', ['$scope',
             var menufold = true; 
         }
 
-        $scope.app = {
-            name: 'Slant Admin - Angular | General',
+        $scope.app = {            
+            name: 'Slant Admin - Angular | Music',
             version: '3.0.0',
-            type: 'general', // general,hospital,university,music,crm,blog,socialmedia,freelancing,ecommerce
+            type: 'music',
             color: {
-                primary: '#673AB7',
-                accent: '#FF6E40',
+                primary: '#53bec3',
+                accent: '#e86f5c',
                 info: '#26C6DA',
                 success: '#46be8a',
                 warning: '#fdb45d',
