@@ -13,36 +13,9 @@ module.exports = function(grunt) {
         'clean:angular', 
         'copy:angular', 
 
-        'recess:style', 
-        'recess:style2',
-        'recess:style3',
-        'recess:style4',
-        'recess:style5',
-        'recess:style6',
-        'recess:style7',
-        'recess:style8',
-        'recess:style9',
-
+        'recess:style',
         'concat:general',
-        'concat:hospital', 
-        'concat:university', 
-        'concat:music', 
-        'concat:blog', 
-        'concat:crm', 
-        'concat:ecommerce', 
-        'concat:socialmedia', 
-        'concat:freelancing', 
-
-        'uglify:general', 
-        'uglify:hospital',
-        'uglify:university', 
-        'uglify:music', 
-        'uglify:blog', 
-        'uglify:crm', 
-        'uglify:ecommerce', 
-        'uglify:socialmedia', 
-        'uglify:freelancing'
-
+        'uglify:general'
     ]);
 
     // Build Angular Hospital
